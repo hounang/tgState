@@ -11,7 +11,7 @@ else
   exit 1
 fi
 
-# Download and unzip
+# Download tgState and unzip it
 wget "https://github.com/csznet/tgState/releases/latest/download/$File" && unzip "$File" && rm "$File"
 
 # Set permissions
